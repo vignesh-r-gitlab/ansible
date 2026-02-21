@@ -1,7 +1,7 @@
 - name: task level variable
   hosts: local
   connection: local
-  vars:
+  vars_files:
    -course.yaml
   tasks:
     - name: print variable
