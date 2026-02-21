@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-   COURSE: "Devops with vignesh"
+   COURSE: "Devops with AWS"
    DURATION: "140hrs"
    TRAINER: "vignesh"
   tasks:
