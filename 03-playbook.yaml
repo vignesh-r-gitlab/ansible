@@ -10,4 +10,4 @@
   - name: start the service
     ansible.builtin.service:
       name: start nginx
-      state: installed
+      state: started
