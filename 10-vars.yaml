@@ -3,7 +3,7 @@
   connection: local
   vars:
     NAME: "ansible from play"
-  tasks_file:
+  vars_file:
     - course.yaml
   vars.prompt:
   - name: NAME
