@@ -9,9 +9,9 @@
   - name: NAME
     prompt: please enter name
     private: false
-  #tasks:
+  tasks:
   - name: ansible play task
-    vars:
+    #vars:
       NAME: "ansible from task"
     ansible.builtin.debug:
       msg: "Hi, {{ NAME }}"
