@@ -8,7 +8,7 @@
 
   - name: password
     prompt: please enter password
-    provate: false
+    private: false
 
   tasks:
   - name: print info
