@@ -9,7 +9,7 @@
   - name: NAME
     prompt: please enter name
     private: false
-  tasks:
+  #tasks:
   - name: ansible play task
     vars:
       NAME: "ansible from task"
