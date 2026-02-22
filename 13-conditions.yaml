@@ -1,0 +1,10 @@
+- name: arithmetic operation
+  hosts: local
+  connection: local
+  vars:
+    NUMBER_OF_SESSION: 7
+  tasks:
+  - name: does number of session is more than 5
+    ansible.builtin.debug:
+      msg: "yes, more than 5 sessions"
+    when: NUMBER_OF_SESSION > 5
