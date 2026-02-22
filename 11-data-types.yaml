@@ -5,9 +5,10 @@
     PROGRAM: "Desecvops with AWS"
     DURATION: "140hrs"
     IS_LIVE: true
-    DETAILS: 
+    DETAILS: {
       MONTHS: 4
       TRAINER: "shiva"
+    } 
     TOPICS:
       - LINUX
       - SHELL
