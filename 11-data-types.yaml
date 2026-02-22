@@ -7,7 +7,7 @@
     IS_LIVE: true
     DETAILS: 
       MONTHS: 4
-      TRAINER: shiva
+      TRAINER: "shiva"
     TOPICS:
       - LINUX
       - SHELL
