@@ -1,0 +1,6 @@
+- name: play level variable
+  hosts: local
+  connection: local
+  tasks:
+    ansible.builtin.debug:
+      msg: "course is {{ COURSE }}"
