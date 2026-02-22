@@ -9,7 +9,7 @@
   - name: check redhat or not
     ansible.builtin.debug:
       msg: "yes, the os is redhat"
-    when: ansible_facts.os_family == "redhat"
+    when: ansible_facts.os_family == "RedHat"
 
     #  "nodename": "ip-172-31-21-190.ec2.internal",
     #     "os_family": "RedHat",
