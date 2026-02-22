@@ -11,5 +11,11 @@
       msg: "yes, the os is redhat"
     when: ansible_facts.os_family == "RedHat"
 
+  - name: check ubuntu or not
+    ansible.builtin.debug:
+      msg: "yes, the os is ubuntu"
+    when: ansible_facts.os_family == "ubuntu"
+
+
     #  "nodename": "ip-172-31-21-190.ec2.internal",
     #     "os_family": "RedHat",
