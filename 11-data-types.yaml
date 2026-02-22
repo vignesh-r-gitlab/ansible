@@ -1,0 +1,23 @@
+- name: demo on data types
+  hosts: local 
+  connection: local
+  vars:
+    PROGRAM: "Desecvops with AWS"
+    DURATION: "140hrs"
+    IS_LIVE: true
+    DETAILS: 
+      MONTHS: 4
+      TRAINER: shiva
+    TOPICS:
+      - LINUX
+      - SHELL
+      - ANSIBLE
+  tasks:
+  - name: print data types
+    ansible.builtin.debug:
+      msg: 
+        program: {{ PROGRAM }}
+        duration: {{ DURATION }}
+        is live: {{ IS_LIVE }}
+        program: {{ DETAILS }}
+        topics: {{ TOPICS }}
