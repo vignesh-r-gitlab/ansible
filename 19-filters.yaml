@@ -2,6 +2,7 @@
   hosts: local 
   connection: local
   vars: 
+    myip: 500.256.245.55
     topics: linux, shell, ansible, terraform
     tagsmap:
       name: ansible
