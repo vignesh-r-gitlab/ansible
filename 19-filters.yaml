@@ -7,6 +7,22 @@
       name: ansible
       project: roboshop
       component: catalogue
+
+    tagslist: [
+        {
+            "key": "name",
+            "value": "ansible"
+        },
+        {
+            "key": "project",
+            "value": "roboshop"
+        },
+        {
+            "key": "component",
+            "value": "catalogue"
+        }
+    ]
+
   tasks:
   - name: greeting
     ansible.builtin.debug:
@@ -19,3 +35,8 @@
   - name: convert map to list 
     ansible.builtin.debug:
       msg: "{{ tagsmap | dict2items }}" 
+
+  - name: convert list to map 
+    ansible.builtin.debug:
+      msg: "{{ tagsmap | items2dict }}"
+
