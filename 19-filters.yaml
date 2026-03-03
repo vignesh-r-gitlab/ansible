@@ -53,3 +53,7 @@
     ansible.builtin.debug:
       msg: "{{ course | lower }}"
 
+  - name: check ipv4
+    ansible.builtin.debug:
+      msg: "{{ myip | ansible.util.ip4 }}"
+
