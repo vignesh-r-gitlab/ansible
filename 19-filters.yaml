@@ -42,5 +42,5 @@
 
   - name: read student yaml
     ansible.builtin.set_fact:
-      student_yaml: "{{ lookup('file', students.yaml) | from_yaml }}"
+      student_yaml: "{{ lookup('file', 'students.yaml') | from_yaml }}"
 
